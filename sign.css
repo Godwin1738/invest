@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none !important;
+  list-style-type: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.938);
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: #05a0a0;
+}
+
+.bg-light {
+  --bs-bg-opacity: 1;
+  background-color: #131419 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.btn-outline-success {
+  color: #198754;
+  border-color: #198754;
+}
+
+.nav-link:hover {
+  color: #05A0A0 !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 5rem;
+  padding-left: 0.5rem;
+}
+
+.navbar-collapse {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  -webkit-box-flex: 0.4;
+      -ms-flex-positive: 0.4;
+          flex-grow: 0.4;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 7rem;
+  color: white;
+}
+
+.login-box {
+  background-color: #17181F;
+  width: 26rem;
+  height: auto;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login-boxdiv {
+  padding: 0 10px;
+}
+
+.user {
+  margin: 10px 0;
+}
+
+.user a {
+  color: #097E7D;
+}
+
+.inp1 {
+  width: 18rem;
+  height: 8vh;
+  outline: none;
+  background-color: #283046;
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+  color: white;
+}
+
+.login-btn {
+  width: 18rem;
+  height: 8vh;
+  outline: none;
+  background-color: #097E7D;
+  border: none;
+  border-radius: 5px;
+  -webkit-transition: 0.5s -webkit-box-shadow ease;
+  transition: 0.5s -webkit-box-shadow ease;
+  transition: 0.5s box-shadow ease;
+  transition: 0.5s box-shadow ease, 0.5s -webkit-box-shadow ease;
+}
+
+.login-btn:hover {
+  -webkit-box-shadow: 3px 0px 5px #097E7D;
+          box-shadow: 3px 0px 5px #097E7D;
+}
+
+.input-msg-Error-msg {
+  color: #ee5f5f;
+}
+
+.input-msg-Error {
+  color: #ee5f5f;
+}
+/*# sourceMappingURL=sign.css.map */

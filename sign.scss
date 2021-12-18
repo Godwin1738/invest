@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.938);
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.navbar-light .navbar-brand:hover{
+    color: rgb(5,160,160);
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgb(19,20,25)!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.btn-outline-success {
+    color: #198754;
+    border-color: #198754;
+}
+
+.nav-link:hover{
+    color: #05A0A0 !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 5rem;
+    padding-left: 0.5rem;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0.4;
+    align-items: center;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+    color: white;
+}
+
+.login-box{
+    background-color: #17181F;
+    width: 26rem;
+    height: auto;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-boxdiv{
+    padding: 0 10px;
+}
+.user{
+    margin: 10px 0;
+}
+
+.user a{
+    color:#097E7D ;
+}
+
+.inp1{
+    width: 18rem;
+    height: 8vh;
+    outline: none;
+    background-color: #283046;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    color: white;
+}
+
+.login-btn{
+    width: 18rem;
+    height: 8vh;
+    outline: none;
+    background-color: #097E7D;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s box-shadow ease;
+
+}
+
+.login-btn:hover{
+    box-shadow: 3px 0px 5px #097E7D ;
+}
+
+.input-msg-Error-msg{
+    color: rgb(238, 95, 95);
+}
+
+.input-msg-Error{
+    color: rgb(238, 95, 95);
+}

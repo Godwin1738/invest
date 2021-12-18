@@ -1,0 +1,87 @@
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+.bg-light {
+  --bs-bg-opacity: 1;
+  background-color: #131419 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.btn-outline-success {
+  color: #198754;
+  border-color: #198754;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: #05a0a0;
+}
+
+.nav-link:hover {
+  color: #05A0A0 !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 5rem;
+  padding-left: 0.5rem;
+}
+
+.navbar-collapse {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  -webkit-box-flex: 0.4;
+      -ms-flex-positive: 0.4;
+          flex-grow: 0.4;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none !important;
+  scrollbar-width: 100px;
+  scrollbar-color: #0a699d blue;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.938);
+}
+
+.faq-container {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.faq-container-boxOptions-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.faq-card {
+  margin: 0 10px;
+  border: 2px solid white;
+  height: 35vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20rem;
+}
+/*# sourceMappingURL=faq.css.map */
